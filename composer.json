@@ -1,0 +1,15 @@
+{
+  "name": "kvasenko/bluz-options-module",
+  "type": "bluz-module",
+  "license": "MIT",
+  "description": "bluz options module",
+  "require": {
+    "kvasenko/composer-installer-bluz": "dev-composer-installer"
+  },
+  "extra": {
+    "bluz": {
+      "module_name": "options",
+      "modules_path": "application/modules"
+    }
+  }
+}
