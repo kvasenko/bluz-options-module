@@ -1,6 +1,6 @@
 
 # Options entity
-CREATE TABLE options
+CREATE TABLE IF NOT EXISTS options
 (
   namespace VARCHAR(64) DEFAULT 'default' NOT NULL,
   `key` VARCHAR(255) NOT NULL,
@@ -11,5 +11,5 @@ CREATE TABLE options
   CONSTRAINT options_key_namespace_pk PRIMARY KEY (`key`, namespace)
 );
 
-INSERT INTO `acl_privileges` (`roleId`, `module`, `privilege`)
+REPLACE INTO `acl_privileges` (`roleId`, `module`, `privilege`)
 VALUES (2,'options','Management');
