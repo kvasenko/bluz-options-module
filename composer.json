@@ -9,7 +9,8 @@
   "extra": {
     "bluz": {
       "module_name": "options",
-      "modules_path": "application/modules"
+      "modules_path": "application/modules",
+      "required_models": "options, my"
     }
   }
 }
