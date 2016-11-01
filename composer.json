@@ -10,7 +10,7 @@
     "bluz": {
       "module_name": "options",
       "modules_path": "application/modules",
-      "required_models": "options, my"
+      "required_models": "options"
     }
   }
 }
